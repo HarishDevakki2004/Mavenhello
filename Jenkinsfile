@@ -1,14 +1,7 @@
-Creating a Job 
- 
-Dashboard, Add new Item, name, Pipeline project 
-OK 
-Pipeline script from SCM (Source Code Management) 
-Note down script box Jenkinsfile(To be created in Github repository) 
- 
-pipeline { 
+ pipeline { 
     agent any 
     tools { 
-          maven ' Maven' //Ensure name matches with configured  
+          maven 'Maven' //Ensure name matches with configured  
     } 
     stages { 
         stage('Checkout') {  
