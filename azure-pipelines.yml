@@ -11,5 +11,5 @@ steps:
   - script: mvn clean install
     displayName: 'Build with Maven'
 
-  - script: java -jar target/demoMaven-0.0.1-SNAPSHOT.jar
-    displayName: 'Run the JAR file of my demoMaven App'
+  - script: java -jar target/HelloWorld-0.0.1-SNAPSHOT.jar
+    displayName: 'Run the JAR file of my HelloWorld App'
